@@ -1,0 +1,25 @@
+<!-- res/drawable/profile_icon_3d.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer circle with shadow -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ff9c59"/>
+            <stroke
+                android:width="4dp"
+                android:color="#33000000"/>
+            <padding android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp"/>
+        </shape>
+    </item>
+
+    <!-- Inner circle with gradient -->
+    <item android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="225"
+                android:centerColor="#FF9248"
+                android:endColor="#FF7F00"
+                android:startColor="#FFD700"
+                android:type="linear"/>
+        </shape>
+    </item>
+</layer-list>

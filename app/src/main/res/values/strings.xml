@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KataDo</string>
+    <string name="correct_pose_image">correct_pose_image</string>
+    <string name="empty_string"></string>
+
+
+    <string-array name="time_periods">
+            <item>All Time</item>
+            <item>Last 24 Hours</item>
+            <item>Last 7 Days</item>
+            <item>Last 30 Days</item>
+    </string-array>
+
+
+
+</resources>

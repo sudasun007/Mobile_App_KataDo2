@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo_bhaina_2</item>
+        <item>@font/biryani_semibold</item>
+        <item>@font/droid_serif</item>
+        <item>@font/roboto_bold</item>
+    </array>
+</resources>
